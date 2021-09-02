@@ -40,6 +40,7 @@ class List extends React.Component {
 
 // copy icon
 function handleCopyIcon(str) {
+  console.log('=====handleCopyIcon')
   const el = document.createElement('textarea');
   el.value = str;
   el.setAttribute('readonly', '');
